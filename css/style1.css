@@ -1,0 +1,90 @@
+body {
+ height: 185vh;
+ margin: 20px;
+ border: 4px black solid;
+ margin: 40px;
+ background-image: url(../images/bg1.jpg);
+
+
+}
+
+.menu {
+  height: 23vh;
+  border: 4px black solid;
+  margin: 10px;
+  margin-bottom: none;
+  background-image: url(../images/png.png);
+  background-repeat: no-repeat;
+}
+
+.menu1 {
+  border: none;
+  height:5vh;
+  margin-top: 18vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+}
+
+a li:hover {
+	background-color: #fff;
+  color: black;
+}
+
+.menu1 li {
+  list-style: none;
+  color: black;
+	background-color: #056571;
+	text-align: center;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-family: verdana;
+	color: white;
+  width: 300px;
+}
+
+.pic {
+  background-image: url(../images/bgbg.png);
+  background-repeat:;
+  border: 4px black solid;
+  height:40vh;
+  margin-top: none;
+  margin: 10px;
+}
+
+.art {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  border: none;
+  margin: 10px;
+  grid-gap: 10px;
+}
+
+.art1 {
+  height: 100vh;
+  border: 4px black solid;
+}
+
+.art2 {
+  height: 100vh;
+  border: 4px black solid;
+}
+p{
+	font-size:16px;
+	color: white;
+	font-family: mark my words;
+	text-align:center;
+}
+h1{
+	color: white;
+	text-align:center;
+	font-family: budmo jiggler;
+
+}
+
+
